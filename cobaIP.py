@@ -498,7 +498,7 @@ while(True):
         print('Lampu Merah...!')
         #program suara
         pygame.mixer.init()
-        pygame.mixer.music.load("/home/pi/TA_Dayu/Suara/lampumerah.mp3")
+        pygame.mixer.music.load("/home/pi/me/Suara/lampumerah.mp3")
         pygame.mixer.music.play()
         time.sleep(3.5)
     elif k%256==ord('1'):
@@ -506,7 +506,7 @@ while(True):
         print('Lampu Hijau...!')
         #program suara
         pygame.mixer.init()
-        pygame.mixer.music.load("/home/pi/TA_Dayu/Suara/lampuhijau.mp3")
+        pygame.mixer.music.load("/home/pi/me/Suara/lampuhijau.mp3")
         pygame.mixer.music.play()
         time.sleep(3.5)
     elif k%256==ord('2'):
@@ -514,7 +514,7 @@ while(True):
         print('Lampu Kuning...!')
         #program suara
         pygame.mixer.init()
-        pygame.mixer.music.load("/home/pi/TA_Dayu/Suara/lampukuning.mp3")
+        pygame.mixer.music.load("/home/pi/me/Suara/lampukuning.mp3")
         pygame.mixer.music.play()
         time.sleep(3.5)
     else:
